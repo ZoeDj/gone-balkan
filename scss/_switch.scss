@@ -1,0 +1,63 @@
+body[data-light-mode="dark"] {
+  background-color: $dark-color;
+  color: $light-color;
+
+  a {
+    color: $light-color;
+  }
+
+  .logo {
+    background-color: $dark-color;
+  }
+
+  .st0 {
+    fill: $light-color;
+  }
+
+  .st2 {
+    fill: none;
+
+    stroke: $light-color;
+  }
+  .st3 {
+    fill: $dark-color;
+  }
+  rect {
+    fill: $light-color;
+  }
+}
+
+body[data-light-mode="light"] {
+  background-color: $light-color;
+  color: $dark-color;
+
+  .btn-primary {
+    background-color: $light-color;
+    color: $dark-color;
+  }
+  a {
+    color: $dark-color;
+  }
+  .logo {
+    background-color: $light-color;
+  }
+
+  .st0 {
+    fill: $dark-color;
+  }
+
+  .st2 {
+    fill: none;
+    stroke: $dark-color;
+  }
+  .st3 {
+    fill: $light-color;
+  }
+  rect {
+    fill: $dark-color;
+  }
+  .switch {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+}

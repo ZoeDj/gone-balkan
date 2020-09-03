@@ -1,0 +1,25 @@
+.logo {
+  width: 7%;
+  background-color: $primary-color;
+  margin-top: 5px;
+}
+
+.st0 {
+  font-family: $font-stack;
+  fill: set-text-color($primary-color);
+}
+.st1 {
+  font-size: 60px;
+}
+.st2 {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.st3 {
+  fill: $primary-color;
+}
+rect {
+  fill: set-text-color($primary-color);
+}
