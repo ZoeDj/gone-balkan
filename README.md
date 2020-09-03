@@ -1,5 +1,5 @@
 # gone-balkan
-This is a landing page for GoneBalkan website. It features light/dark mode.
+This is a landing page for the GoneBalkan website. It features light/dark mode.
 
 https://gone-balkan.netlify.app/
 
