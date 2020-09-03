@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GoneBalkan</title>
+  </head>
+  <body class="body">
+    <script>
+      var app = document.getElementsByClassName("body")[0];
+      if (localStorage.lightMode == "dark") {
+        app.setAttribute("data-light-mode", "dark");
+      }
+    </script>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f9cc20"
+        fill-opacity="1"
+        d="M0,192L1440,32L1440,0L0,0Z"
+      ></path>
+    </svg>
+    <header class="showcase">
+      <div class="container">
+        <nav>
+          <svg
+            class="logo"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 120 120"
+            style="enable-background: new 0 0 120 120"
+            xml:space="preserve"
+          >
+            <g>
+              <rect x="60.2" y="19.1" width="41.8" height="82.8" />
+            </g>
+            <text transform="matrix(1 0 0 1 27.6709 87.5273)" class="st0 st1">
+              G
+            </text>
+            <rect x="8" y="8" class="st2" width="105" height="105" />
+            <text
+              transform="matrix(1 0 0 1 68.6343 88.2051)"
+              class="st3 st0 st1"
+            >
+              B
+            </text>
+            <rect x="19.1" y="19.1" class="st2" width="82.8" height="82.8" />
+          </svg>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+
+            <button class="switch" onclick="toggle_light_mode()">
+              Light Mode
+            </button>
+          </ul>
+        </nav>
+
+        <div class="showcase-content">
+          <div>
+            <h1>Heritage Revival</h1>
+            <p class="my-1">
+              GoneBalkan is a place where people, like us, can find a true
+              connection with their roots. It's not our parents' Balkans... and
+              it's hard to explain to our kids. We embrace the best bits of the
+              Balkans and bring it to the rest of the world.
+            </p>
+            <a href="#" class="btn-primary">Learn More</a>
+            <a href="#" class="btn-secondary">Shop</a>
+          </div>
+         
+            <img src="images/gonebalkan.jpg" alt="gone balkan image" />
+         
+      </div>
+    </header>
+    <main class="shop-content">
+      <img src="images/cardio.jpg" alt="gone balkan image" />
+      <img src="images/guca.jpg" alt="gone balkan image" />
+      <img src="images/djura-sc.jpg" alt="gone balkan image" />
+    </main>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f9cc20"
+        fill-opacity="1"
+        d="M0,192L1440,32L1440,320L0,320Z"
+      ></path>
+    </svg>
+    <script>
+      function toggle_light_mode() {
+        var app = document.getElementsByClassName("body")[0];
+        if (localStorage.lightMode == "dark") {
+          localStorage.lightMode = "light";
+          app.setAttribute("data-light-mode", "light");
+          document.querySelector(".switch").innerHTML = "Dark Mode";
+        } else {
+          localStorage.lightMode = "dark";
+          app.setAttribute("data-light-mode", "dark");
+          document.querySelector(".switch").innerHTML = "Light Mode";
+        }
+      }
+    </script>
+  </body>
+</html>
