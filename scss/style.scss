@@ -81,8 +81,7 @@ body[data-light-mode="light"] {
 }
 
 .st0 {
-  font-family: "Open Sans Condensed", sans-serif;
-
+  font-family: $font-stack;
   fill: set-text-color($primary-color);
 }
 .st1 {

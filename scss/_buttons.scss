@@ -10,11 +10,17 @@
 
 .btn-primary {
   @extend %btn;
-
   color: white;
 }
 
 .btn-secondary {
   @extend %btn;
   @include set-background($secondary-color);
+}
+.switch {
+  @extend %btn;
+  font-family: $font-stack;
+  font-size: large;
+  @include set-background($secondary-color);
+  border: none;
 }
