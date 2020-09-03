@@ -1,5 +1,6 @@
 # gone-balkan
-This is a landing page for the GoneBalkan website. It features light/dark mode.
+This is a landing page for the GoneBalkan website. It features light/dark mode and flipping images. 
+The main technologie: Sass.
 
 https://gone-balkan.netlify.app/
 
